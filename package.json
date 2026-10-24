@@ -1,0 +1,13 @@
+{
+  "name": "shifa-license-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure license + update server for Shifa Medical Store (zero external dependencies)",
+  "main": "server.js",
+  "engines": { "node": ">=22.5.0" },
+  "scripts": {
+    "start": "node server.js",
+    "create-admin": "node scripts/create-admin.js",
+    "test": "node scripts/e2e-test.js"
+  }
+}
